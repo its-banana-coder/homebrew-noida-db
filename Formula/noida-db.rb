@@ -1,28 +1,28 @@
 class NoidaDb < Formula
   desc "One tiny local binary that speaks Postgres, MySQL, Redis, Kafka, Elasticsearch and ClickHouse"
   homepage "https://github.com/its-banana-coder/noida-db"
-  version "0.1.3"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/its-banana-coder/noida-db/releases/download/v0.1.3/noida-db-0.1.3-aarch64-apple-darwin.tar.gz"
-      sha256 "6586b9848ba7a85b5237fc06e6d2c23336836287614f9b53394ae2306515b233"
+      url "https://github.com/its-banana-coder/noida-db/releases/download/v0.2.0/noida-db-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "96bdbc61cc0fb587e5240d008432b134ce0096f535a0bc143ec2077ba2b4f699"
     end
     on_intel do
-      url "https://github.com/its-banana-coder/noida-db/releases/download/v0.1.3/noida-db-0.1.3-x86_64-apple-darwin.tar.gz"
-      sha256 "05d11f198c625f3ee5ec81a2d2c33af62a64240756e78fee499a662fc605c6b5"
+      url "https://github.com/its-banana-coder/noida-db/releases/download/v0.2.0/noida-db-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a0e706649411b0382ded4847b23dd70d279c0ac4f04ac6d7d4d8b14055757d3a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/its-banana-coder/noida-db/releases/download/v0.1.3/noida-db-0.1.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f42037f4c6fd64ec21f0ed5f65c54cd58d853713f2b56d62f7c98c1058922429"
+      url "https://github.com/its-banana-coder/noida-db/releases/download/v0.2.0/noida-db-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5cbe58c6edd0cdcffde1461a085e3b34c2d65b7726b2fe5476cfc615c2ef47e1"
     end
     on_intel do
-      url "https://github.com/its-banana-coder/noida-db/releases/download/v0.1.3/noida-db-0.1.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a0d0134403120b949a6ad0232a2b99f8d28b2d980b47158c53ee356bdda8b791"
+      url "https://github.com/its-banana-coder/noida-db/releases/download/v0.2.0/noida-db-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "34c9dbbf29b646c149db7e8206fd47a1be52c4bb87a374e16f6f0787ca6d6647"
     end
   end
 
